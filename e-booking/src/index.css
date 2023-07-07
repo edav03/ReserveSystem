@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+    background-color: #bcd2dc;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 777px) {
+    :root {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 960px) {
+    :root {
+        font-size: 20px;
+    }
+}

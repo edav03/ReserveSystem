@@ -1,0 +1,41 @@
+footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: #24292f;
+    width: 80%;
+    margin: auto;
+    height: 5rem;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > a {
+    color: white;
+}
+
+footer > p {
+    color: rgb(164, 153, 153);
+}
+
+footer > h2 > a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 365px) {
+    footer > h2 > a {
+        font-size: 0.9rem;
+    }
+    footer > p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    footer {
+        width: 100%;
+    }
+}

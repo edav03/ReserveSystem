@@ -1,0 +1,114 @@
+/*Contenedor*/
+.Facility {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+/*Imagen del contenedor*/
+#facilityImg {
+    width: 100%;
+    max-height: 300px;
+    min-height: 150px;
+    min-width: 200px;
+    border-radius: 20px;
+}
+
+/*Fondo blanco del contenedor*/
+.FacilityBack {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffffffcc;
+    width: 40%;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 0 20px 20px 0;
+}
+
+/*Todo la descripcion sobre la Instalacion*/
+.FacilityInfo {
+    width: 80%;
+    height: 80%;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+
+.FacilityInfo > * {
+    margin: 1rem 0;
+}
+
+/*Nombre de la instalacion*/
+#titulo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*Contenedor para la ubicacion*/
+.ubication {
+    display: flex;
+}
+
+/*Ubicacion de la instalacion*/
+#text {
+    color: #2e62e7;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Imagen de localizacion*/
+#locationLogo {
+    width: 30px;
+    max-height: 30px;
+}
+
+/*Precio de la reserva*/
+#precio {
+    color: #2e62e7;
+    font-size: 15px;
+}
+
+@media (max-width: 960px) {
+    #titulo {
+        font-size: 15px;
+    }
+
+    #text {
+        font-size: 9px;
+    }
+
+    #locationLogo {
+        width: 25px;
+        max-height: 25px;
+    }
+
+    #precio {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 777px) {
+    #titulo {
+        font-size: 12px;
+    }
+
+    #text {
+        font-size: 6px;
+    }
+
+    #locationLogo {
+        width: 20px;
+        max-height: 20px;
+    }
+
+    #precio {
+        font-size: 9px;
+    }
+}

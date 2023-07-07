@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.LandingPage {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.Municipality {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.selectWrapper {
+    width: 10rem;
+    height: 3rem;
+    display: inline-block;
+}
+
+#town {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+}
+
+.LandingPage > input[type='submit'] {
+    border-radius: 10px;
+    height: 3rem;
+}
+
+.LandingPage > input[type='submit']:hover {
+    background: #d7dde3;
+    align-self: unset;
+    color: #1167a5;
+    width: 40%;
+}
+
+@media (max-width: 365px) {
+    .Municipality {
+        flex-direction: column;
+    }
+}

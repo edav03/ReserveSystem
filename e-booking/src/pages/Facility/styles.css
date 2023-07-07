@@ -1,0 +1,29 @@
+.FacilityContainer {
+    display: grid;
+    grid-template-rows: 1.2fr 20fr 1.3fr;
+    grid-template-columns: 1fr 9fr 1fr 14fr 1fr;
+    grid-template-areas:
+        '.. .. .. .. ..'
+        '.. FD .. FS ..'
+        '.. .. .. .. ..';
+}
+
+.FacilityDescription {
+    width: 100%;
+    grid-area: FD;
+}
+
+.FacilitySchedule {
+    width: 100%;
+    grid-area: FS;
+}
+
+@media (max-width: 960px) {
+    .FacilityContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+        margin: 30px auto;
+    }
+}
